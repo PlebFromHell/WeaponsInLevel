@@ -1,0 +1,10 @@
+{
+  "name": "WeaponsInLevel",
+  "version_number": "1.5.1",
+  "website_url": "",
+  "description": "Works alongside itsUndefined's fantastic Shop Items Spawn in Level mod. Adds on top of Shop Items Spawn in Level, introducing guns, mines, grenades, and melee items to the level spawns.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "itsUndefined-Shop_Items_Spawn_in_Level-1.7.17"
+  ]
+}

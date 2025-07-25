@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<AssemblyName>WeaponsInLevel</AssemblyName>
+		<RootNamespace>WeaponsInLevel</RootNamespace>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Core Modding Framework -->
+		<Reference Include="BepInEx">
+			<HintPath>..\lib\BepInEx.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>..\lib\0Harmony.dll</HintPath>
+		</Reference>
+
+		<!-- Game Assemblies -->
+		<Reference Include="Assembly-CSharp">
+			<HintPath>..\lib\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>..\lib\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>..\lib\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputLegacyModule">
+			<HintPath>..\lib\UnityEngine.InputLegacyModule.dll</HintPath>
+		</Reference>
+
+		<!-- Shop Items Mod -->
+		<Reference Include="REPO_Shop_Items_in_Level">
+			<HintPath>..\lib\REPO_Shop_Items_in_Level.dll</HintPath>
+		</Reference>
+
+		<!-- Photon -->
+		<Reference Include="PhotonUnityNetworking">
+			<HintPath>..\lib\PhotonUnityNetworking.dll</HintPath>
+		</Reference>
+		<Reference Include="PhotonRealtime">
+			<HintPath>..\lib\PhotonRealtime.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>

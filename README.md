@@ -1,4 +1,4 @@
-# WeaponsInLevel
+# WeaponsInLevel - REPO Mod
 
 Adds extra weapon spawns on top of **Shop Items Spawn in Level**, introducing **guns, grenades, mines, and melee weapons** into level spawns.
 

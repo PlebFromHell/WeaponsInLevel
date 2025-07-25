@@ -1,6 +1,6 @@
 # WeaponsInLevel
 
-Adds extra weapon spawns on top of **Shop Items Spawn in Level**, introducing **guns, grenades, mines, and melee weapons** into the level spawns.
+Adds extra weapon spawns on top of **Shop Items Spawn in Level**, introducing **guns, grenades, mines, and melee weapons** into level spawns.
 
 ## Features
 - Spawns guns, grenades, melee weapons, and mines alongside existing shop items.

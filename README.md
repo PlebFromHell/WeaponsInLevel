@@ -1,11 +1,17 @@
 # WeaponsInLevel - REPO Mod
 
-Adds extra weapon spawns on top of **Shop Items Spawn in Level**, introducing **guns, grenades, mines, and melee weapons** into level spawns.
+Adds extra spawns on top of **Shop Items Spawn in Level**, introducing **guns, grenades, mines, melee weapons and energy crystals** into level spawns.
 
 ## Features
-- Spawns guns, grenades, melee weapons, and mines alongside existing shop items.
+- Spawns guns, grenades, melee weapons, mines and crystals alongside existing shop items.
 - Configurable spawn rates through the BepInEx configuration system.
 - Fully compatible with `itsUndefined-Shop_Items_Spawn_in_Level`.
+
+## Instructions
+
+Find a weapon and use it. If you want to keep it, include it in an extraction.
+
+For Crystals, they must be extracted to add energy to the charge station.
 
 ## Requirements
 - **BepInExPack (5.4.2100 or later)**
